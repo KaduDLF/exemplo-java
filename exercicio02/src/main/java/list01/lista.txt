@@ -8,7 +8,8 @@ Para cada exerc´ıcio, crie uma classe com um m´etodo main.
 
 1. Leia o nome de um usu´ario e imprima-o todo em mai´usculo.
 
-2. Leia o nome completo do usu´ario e imprima uma sugest˜ao de endere¸co de e-mail. Exemplo:
+2. Leia o nome completo do usu´ario e imprima 
+uma sugest˜ao de endere¸co de e-mail. Exemplo:
 
 Nome: Fulano Detal
 Sugest~ao de e-mail: fulanodetal@gmail.com
