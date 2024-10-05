@@ -1,0 +1,36 @@
+
+Instituto Federal Goiano - Campus Ceres
+Sistemas de Informac˜ao
+Prof. Me.: Lucas Faria - Linguagem de Programac˜ao
+Lista de Exerc´ıcios - 001
+
+Para cada exerc´ıcio, crie uma classe com um m´etodo main.
+
+1. Leia o nome de um usu´ario e imprima-o todo em mai´usculo.
+
+2. Leia o nome completo do usu´ario e imprima uma sugest˜ao de endere¸co de e-mail. Exemplo:
+
+Nome: Fulano Detal
+Sugest~ao de e-mail: fulanodetal@gmail.com
+
+
+3. Leia o nome completo de um usu´ario e imprima na tela:
+
+ Quantidade total de letras
+ Quantidade de vogais
+ Quantidade de consoantes
+
+4. Leia dois n´umeros e imprima a m´edia aritm´etica desses n´umeros.
+
+5. O m´etodo main deve solicitar que o usu´ario digite dois nomes e, em seguida, deve imprimir esses nomes
+concatenados, seguindo as regras:
+
+ o primeiro nome deve ser todo convertido para min´usculo.
+ o segundo nome deve ser todo convertido para mai´usculo.
+ deve haver um espa¸co entre os dois nomes.
+
+6. Leia um nome e imprima esse nome ao contr´ario.
+
+7. Ao ser executado, o m´etodo main deve realizar a leitura de 5 n´umeros e imprimir na tela apenas 2
+n´umeros: o maior e o menor.
+1
