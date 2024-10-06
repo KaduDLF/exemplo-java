@@ -16,11 +16,12 @@ public class Exer03 {
         qtdLetras = nome.length();
         System.out.println("A quantidade total de letras é de: " + qtdLetras);
         nome = nome.toLowerCase();
-        nome = nome.replace("a", "");
-        nome = nome.replace("e", "");
-        nome = nome.replace("i", "");
-        nome = nome.replace("o", "");
-        nome = nome.replace("u", "");
+//        nome = nome.replace("a", "");
+//        nome = nome.replace("e", "");
+//        nome = nome.replace("i", "");
+//        nome = nome.replace("o", "");
+//        nome = nome.replace("u", "");
+        nome = nome.replaceAll("[aeiou]", "");
         qtdVogais = qtdLetras - nome.length();
         System.out.println("A quantidade de vogais é de: " + qtdVogais);
         System.out.println("A quantidade de Consoantes é de: " + (qtdLetras - qtdVogais));
