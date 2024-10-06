@@ -22,5 +22,7 @@ public class Exer03 {
         nome = nome.replace("u", "");
         qtdVogais = qtdLetras - nome.length();
         System.out.println("A quantidade de vogais é de: " + qtdVogais);
+        System.out.println("A quantidade de vogais é de: " + (qtdLetras - qtdVogais));
+        
     }
 }
