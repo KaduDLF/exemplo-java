@@ -22,8 +22,8 @@ public class Funcionario {
     }
     
     public double montante(){
-        this.salario *= 12;
-        return this.salario;
+        double montante = this.salario * 12;
+        return montante;
     }
 
     public double getSalario() {
