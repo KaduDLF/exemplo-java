@@ -25,4 +25,22 @@ public class Funcionario {
         this.salario *= 12;
         return this.salario;
     }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setFuncao(String funcao) {
+        this.funcao = funcao;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+    
+    
 }
