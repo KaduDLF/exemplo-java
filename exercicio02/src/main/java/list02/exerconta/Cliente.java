@@ -13,9 +13,13 @@ public class Cliente {
         this.cpf = cpfC;
         this.logradouro = endereco;
     }
-    
-    
 
+    public void setSobrenome(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+    
+    
+    
     public void setLogradouro(String logradouro) {
         this.logradouro = logradouro;
     }

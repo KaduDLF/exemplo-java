@@ -7,7 +7,7 @@ public class App {
         String nome, sobrenome, CPF; // variaveis para armazenar
         int idade, opc; // opc para escolher qual ação realizar
         double valor; // valor para deposito ou saque
-        String verificar;
+        String verificar, endereco;
         double saldo, limite;
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite o nome da conta");
@@ -16,11 +16,11 @@ public class App {
         sobrenome = scan.nextLine();
         System.out.println("Digite seu CPF");
         CPF = scan.nextLine();
-        System.out.println("Digite sua idade");
-        idade = scan.nextInt();
+        System.out.println("Digite seu endereço");
+        endereco = scan.nextLine();
         
-        Cliente c1 = new Cliente(nome, CPF, idade);
-        c1.sobrenome = sobrenome;
+        Cliente c1 = new Cliente(nome, CPF, endereco);
+        c1.setSobrenome(sobrenome);
         
         
         System.out.println("Qual o saldo da sua conta?");
@@ -44,7 +44,7 @@ public class App {
                     valor = scan.nextDouble();
                     scan.nextLine();
                     verificar = (c1C.saque(valor)) ? " Saque foi concluido " : " Saque não foi realizado ";
-                    System.out.println(c1C.propietario.nome + " o" + verificar + "E agora seu saldo é: " + "R$" + c1C.saldo + " e o limite é: " + "R$" + c1C.limite);
+                    System.out.println(c1C.propietario.getNome() + " o" + verificar + "E agora seu saldo é: " + "R$" + c1C.saldo + " e o limite é: " + "R$" + c1C.limite);
                     scan.nextLine();
                     for(int i = 0; i<50; i++){
                         System.out.println();
@@ -55,7 +55,7 @@ public class App {
                     valor = scan.nextDouble();
                     scan.nextLine();
                     verificar = (c1C.deposito(valor)) ? " Deposito foi concluido " : " Deposito não foi realizado ";
-                    System.out.println(c1C.propietario.nome + " o" + verificar + "E agora seu saldo é: " + "R$" + c1C.saldo + " e o limite é: " + "R$" + c1C.limite);
+                    System.out.println(c1C.propietario.getNome() + " o" + verificar + "E agora seu saldo é: " + "R$" + c1C.saldo + " e o limite é: " + "R$" + c1C.limite);
                     scan.nextLine();
                     for(int i = 0; i<50; i++){
                         System.out.println();
