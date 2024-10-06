@@ -30,7 +30,7 @@ concatenados, seguindo as regras:
  o segundo nome deve ser todo convertido para mai´usculo.
  deve haver um espa¸co entre os dois nomes.
 
-6. Leia um nome e imprima esse nome ao contr´ario.
+6. Leia um nome e imprima esse nome ao contrario.
 
 7. Ao ser executado, o m´etodo main deve realizar a leitura de 5 n´umeros e imprimir na tela apenas 2
 n´umeros: o maior e o menor.
