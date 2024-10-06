@@ -30,6 +30,7 @@ public class Exer03 {
         // agora vou fazer usando estrutura de repetição e condicional
         
         System.out.println(" ------------------------------ ");
+        nome2 = nome2.toLowerCase(); // colocando tudo em minusculo para evitar erros
         char vazio;
         int qtdVazio = 0;
         for(int i = 0;i < nome2.length(); i++){
