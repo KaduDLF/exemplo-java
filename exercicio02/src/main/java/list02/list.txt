@@ -1,0 +1,28 @@
+
+Instituto Federal Goiano - Campus Ceres
+Sistemas de Informa¸c˜ao
+Prof. Me.: Lucas Faria - Linguagem de Programa¸c˜ao
+Lista de Exerc´ıcios - 002
+Crie um novo package chamado exercicio2.
+1. Nesse pacote, crie uma classe chamada Funcionario com os atributos:
+
+ nome (String)
+ fun¸c˜ao (String)
+ sal´ario (double)
+Em seguida, crie 2 m´etodos:
+
+ promover: aumenta o sal´ario do funcion´ario conforme o valor informado no parˆametro.
+ calcular sal´ario anual: retorna o montante recebido no ano (12 meses). N˜ao tem parˆametro.
+
+Crie uma classe para testar (uma classe que tenha um m´etodo main).
+
+2. Houve uma mudan¸ca no sistema banc´ario, e agora ´e necess´ario armazenar mais informa¸c˜oes sobre os
+clientes (n˜ao apenas o nome).
+
+ De cada cliente, o sistema deve controlar: nome, endere¸co e cpf.
+ Crie uma classe para o cliente, com seus atributos e m´etodos (pense nessas a¸c˜oes). Por enquanto,
+n˜ao altere a classe Conta.
+ Crie uma classe contendo um main e teste a classe do cliente.
+
+3. (Valor: 1) Altere a classe da Conta para que, ao inv´es de ter um propriet´ario do tipo String, esse
+atributo seja do tipo Cliente (classe que vocˆe criou no exerc´ıcio anterior).
