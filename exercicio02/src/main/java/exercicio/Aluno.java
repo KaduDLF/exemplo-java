@@ -15,4 +15,11 @@ public class Aluno {
     public String verNome(){
         return this.nome;
     }
+
+    @Override
+    public String toString() {
+        return this.nome + " codigo: " + this.codigo;
+    }
+    
+    
 }

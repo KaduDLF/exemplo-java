@@ -10,4 +10,5 @@ public class Curso {
         this.nome = nome;
         this.duracao = duracao;
     }
+    
 }
