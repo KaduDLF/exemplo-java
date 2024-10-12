@@ -12,7 +12,7 @@ public class Apps2 {
         Aluno[] alunos = new Aluno[3];
         String nome, endereco;
         String opcao = " ";
-        int codigo;
+        int codigo, duracao;
         System.out.println("Cadastro de Alunos.");
         for(int i = 0; i < 3;i++){
             System.out.println("Vamos ao cadastro do " + (i + 1) + " Aluno");
@@ -39,5 +39,34 @@ public class Apps2 {
             }
         }
         
+        scan.nextLine();
+        Curso[] cursos = new Curso[3];
+        System.out.println("Cadastro de cursos");
+        for(int i = 0; i < 3;i++){
+            System.out.println("vamos ao " + (i + 1) + " cadastro");
+            System.out.println("Digite o nome do curso");
+            nome = scan.nextLine();
+            System.out.println("Digite a duracao do curso de " + nome + ", em anos");
+            duracao = scan.nextInt();
+            cursos[i] = new Curso(nome, duracao);
+            
+            scan.nextLine();
+            System.out.println("Curso Cadastrado");
+            scan.nextLine();
+            for(int j = 0;j<10;j++){
+                System.out.println(" ");
+            }
+        }
+        
+        System.out.println("Deseja ver os cursos?");
+        opcao = scan.nextLine().toLowerCase();
+        opc = opcao.charAt(0);
+        if(opc == 's'){
+            for(int i = 0; i < 3; i++){
+                System.out.println(cursos[i]);
+            }
+        }
+        
+        System.out.println("------------------------------------------");
     }
 }
