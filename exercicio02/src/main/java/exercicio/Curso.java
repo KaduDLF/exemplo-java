@@ -15,8 +15,4 @@ public class Curso {
     public String toString() {
         return this.nome;
     }
-    
-    
-    
-    
 }
