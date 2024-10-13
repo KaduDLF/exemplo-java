@@ -31,6 +31,7 @@ public class Conta {
    
     public void saque(double valor){
         if(valor < this.valor){
+            this.valor -= 5; // taxa do banco
             this.valor -= valor;
         }else{
             System.out.println("Valor de saque excede a quantia da conta");
