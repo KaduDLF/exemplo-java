@@ -55,7 +55,8 @@ public class App {
                 }
         }
         String encontrar = (encontrado) ? "codigo encontrado" : "codigo não encontrado";
-        while(opcao == 's'){
+        System.out.println(encontrar);
+        while(opcao == 's' && encontrado){
             for(int i = 0; i < cont; i++){
                 if(busca == contas[i].getCod()){
                     System.out.println(contas[i].getTitular() + " saldo: " + contas[i].getValor());
@@ -85,8 +86,6 @@ public class App {
                 }
                 
             }
-            String encontrar = (encontrado) ? "codigo encontrado" : "codigo não encontrado";
-            System.out.println(encontrar);
             System.out.println("Deseja fazer outra operação?");
             opc = scan.next().toLowerCase();
             opcao = opc.charAt(0);

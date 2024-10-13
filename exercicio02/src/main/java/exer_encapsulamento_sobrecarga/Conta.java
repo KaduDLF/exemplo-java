@@ -30,7 +30,7 @@ public class Conta {
     }
    
     public void saque(double valor){
-        if(valor < this.valor){
+        if(valor <= this.valor){
             this.valor -= 5; // taxa do banco
             this.valor -= valor;
         }else{
