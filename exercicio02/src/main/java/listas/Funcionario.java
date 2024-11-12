@@ -28,7 +28,7 @@ public class Funcionario {
     
     
     public void aumentarSal(int porcentagem){
-        this.salario = ((porcentagem/100) + 1) * this.salario;
+        this.salario += this.salario * porcentagem/100;
         System.out.println("O Sálario agora é de: " + this.salario);
     }
 

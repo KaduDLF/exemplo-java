@@ -41,13 +41,21 @@ public class App {
         
         System.out.println("Digite o id do funcionario! a ser aumentado");
         int idProc = scan.nextInt();
+        Funcionario emp = list.stream().filter(x -> x.getId() == idProc).findFirst().orElse(null);
+        if(emp == null){
+            System.out.println("Esse id não foi cadastrado");
+        }else{
+            System.out.println("Digite o percentual de aumento de salario");
+            int porcentagem = scan.nextInt();
+            emp.aumentarSal(porcentagem);
+        }
         
-        System.out.println("Digite o percentual de aumento de salario");
-        int porcentagem = scan.nextInt();
         
         
         for(Funcionario func : list){
             System.out.println(func);
         }
+        
+        scan.close();
     }
 }
